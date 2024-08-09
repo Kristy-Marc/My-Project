@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./IMAGES/networking.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px ;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text{
+    width: 90%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.one{
+    font-size: 60px;
+
+}
+.pass{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: white;
+
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.link:hover{
+    border: 1px solid #f44336;
+    background:  #f44336;
+    transition: 1s;
+}
+.About{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.aim{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.Aim{
+    color: rgb(118, 40, 40);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.parent{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    flex-basis:29%;
+    background-color: rgba(235, 207, 219, 0.667);
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.first:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.second{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.handshake{
+    width: 100%;
+    height: 30svh;
+    display: block;
+
+    border-radius: 10px;
+}
+.layer{
+    /* background: rgba(240, 137, 137, 0.541); */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer:hover{
+    background: rgba(240, 137, 137, 0.541);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+
+}
+.facilities{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:80px;
+    justify-content: center;
+}
+.facilities-col{
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    flex-basis: 100%;
+} 
+.facilities-col p{
+    padding: 0;
+}
+.facilities h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    flex-basis: 31%;
+}
+.testimonials parent{
+    flex-basis: 50%;
+}
+
+
+/* about.html */
+.sub-header{
+height: 50vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./IMAGES/Photo.jpg);
+background-position: center;
+text-align: center;
+background-size: cover;
+color: white;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.about-aim{
+   align-content: center;
+}
+
+.parent-div{
+    display: flex;
+}
+.img{
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+
+/* Services */
+.plus-header{
+    height: 50vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./IMAGES/1678245426603.png);
+background-position: center;
+text-align: center;
+background-size: cover;
+color: white;
+}
+.btn{
+    background-color: #f44336;
+    border-radius: 10px;
+}
+
+
+
+.sign{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./IMAGES/Digital-Transformation-min.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100svh;
+    display: flex;
+}
+
+.form{
+ background-color: white;
+ margin-top: 10px;
+}
+
+
+
